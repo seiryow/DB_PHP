@@ -3,6 +3,10 @@ DB_PHP
 
 PDO wrapper
 
+### `index.php`
+
+```php
+
 //CONNECT DB
 //SQLITE
 $dbtype = "sqlite";
@@ -85,3 +89,5 @@ $where["testtxt"] = array (
 );
 $r = $test->select($where);
 //dump($r);
+
+```
