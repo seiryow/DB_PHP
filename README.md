@@ -41,9 +41,9 @@ $data["testtxt"] = "xyz";
 $test->insert($data);
 $data["testint"] = 789;
 $data["testtxt"] = "def";
+$test->insert($data);
 
 //SELECT ALL
-$test->insert($data);
 $r = $test->selectAll();
 //dump($r);
 
