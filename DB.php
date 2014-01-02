@@ -1,4 +1,18 @@
 <?php
+
+/**
+ *  DB Script.
+ *
+ *  @package    DB
+ *  @version    $Id$
+ */
+
+/**
+ *  DB Class.
+ *
+ *  @package DB
+ */
+
 class DB {
 
     public $debugquery = false;
