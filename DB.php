@@ -1,5 +1,8 @@
 <?php
 class DB {
+
+    public $debugquery = false;
+
 	function __construct($dbtype, $dbname, $table, $user, $pass) {
 		//		$con = new PDO("{$dbname}", $user, $pass);
 		$this->type = $dbtype;
